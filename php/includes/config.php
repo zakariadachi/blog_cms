@@ -15,13 +15,13 @@ try {
 }
 
 // Fonctions utiles
-function isLoggedIn() {
-    return isset($_SESSION['user_id']);
-}
+// function isLoggedIn() {
+//     return isset($_SESSION['user_id']);
+// }
 
-function isAdmin() {
-    return isset($_SESSION['estAdmin']) && $_SESSION['estAdmin'] == 1;
-}
+// function isAdmin() {
+//     return isset($_SESSION['estAdmin']) && $_SESSION['estAdmin'] == 1;
+// }
 
 function cleanInput($data) {
     $data = trim($data);
@@ -29,4 +29,5 @@ function cleanInput($data) {
     $data = htmlspecialchars($data);
     return $data;
 }
+
 ?>
