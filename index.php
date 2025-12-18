@@ -101,7 +101,7 @@ $articles = getPublishedArticles($pdo);
                                 <div class="portfolio-item">
                                     <a class="portfolio-link" href="article.php?id=<?= $article['id_article'] ?>">
                                         <div class="portfolio-hover">
-                                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                            <div class="portfolio-hover-content"></div>
                                         </div>
                                         <!-- Article image -->
                                         <img class="img-fluid" src="picture.jpg" alt="<?= escape($article['titre']) ?>" style="width: 100%; height: 250px; object-fit: cover;" />

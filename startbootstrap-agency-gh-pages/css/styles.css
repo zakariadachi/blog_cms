@@ -11007,6 +11007,11 @@ header.masthead .masthead-heading {
   opacity: 0;
   transition: opacity ease-in-out 0.25s;
 }
+
+.portfolio-hover:hover{
+  background-color: rgba(255, 200, 0, 0.3);
+}
+
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   font-size: 1.25rem;
   color: white;
